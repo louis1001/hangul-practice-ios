@@ -7,18 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44C82492925F07E00C17640 /* kodict_entry.txt in Resources */ = {isa = PBXBuildFile; fileRef = C44C82482925F07E00C17640 /* kodict_entry.txt */; };
+		C475CE722926B03F004D10FF /* Jamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475CE712926B03F004D10FF /* Jamo.swift */; };
 		C4911F472925E6E800E0AE7A /* hangul_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */; };
 		C4911F492925E6E800E0AE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4911F482925E6E800E0AE7A /* ContentView.swift */; };
 		C4911F4B2925E6E900E0AE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4911F4A2925E6E900E0AE7A /* Assets.xcassets */; };
 		C4911F4E2925E6E900E0AE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4911F4D2925E6E900E0AE7A /* Preview Assets.xcassets */; };
+		C4977C5D292822DE0089F41B /* WordContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4977C5C292822DE0089F41B /* WordContainer.swift */; };
+		C4B4643229273A8800AF4343 /* SwiftyTranslate in Frameworks */ = {isa = PBXBuildFile; productRef = C4B4643129273A8800AF4343 /* SwiftyTranslate */; };
+		C4F13C8F292ADF7800DF5804 /* HangulDisAssemble in Frameworks */ = {isa = PBXBuildFile; productRef = C4F13C8E292ADF7800DF5804 /* HangulDisAssemble */; };
+		C4F13C91292AEB5600DF5804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C44C82482925F07E00C17640 /* kodict_entry.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kodict_entry.txt; sourceTree = "<group>"; };
+		C475CE712926B03F004D10FF /* Jamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamo.swift; sourceTree = "<group>"; };
 		C4911F432925E6E800E0AE7A /* hangul-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangul-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hangul_practiceApp.swift; sourceTree = "<group>"; };
 		C4911F482925E6E800E0AE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4911F4A2925E6E900E0AE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4911F4D2925E6E900E0AE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4977C5C292822DE0089F41B /* WordContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordContainer.swift; sourceTree = "<group>"; };
+		C4F13C87292ADD9F00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
+		C4F13C88292ADDBC00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
+		C4F13C89292ADF0B00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
+		C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4F13C8F292ADF7800DF5804 /* HangulDisAssemble in Frameworks */,
+				C4B4643229273A8800AF4343 /* SwiftyTranslate in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44C82472925F07300C17640 /* dataset */ = {
+			isa = PBXGroup;
+			children = (
+				C44C82482925F07E00C17640 /* kodict_entry.txt */,
+			);
+			path = dataset;
+			sourceTree = "<group>";
+		};
 		C4911F3A2925E6E700E0AE7A = {
 			isa = PBXGroup;
 			children = (
+				C4F13C86292ADD9F00DF5804 /* Packages */,
 				C4911F452925E6E800E0AE7A /* hangul-practice */,
 				C4911F442925E6E800E0AE7A /* Products */,
+				C4F13C8A292ADF2300DF5804 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +76,15 @@
 		C4911F452925E6E800E0AE7A /* hangul-practice */ = {
 			isa = PBXGroup;
 			children = (
+				C4F13C95292AF18700DF5804 /* Resources */,
+				C4977C5B292822D10089F41B /* ViewModels */,
+				C44C82472925F07300C17640 /* dataset */,
 				C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */,
 				C4911F482925E6E800E0AE7A /* ContentView.swift */,
 				C4911F4A2925E6E900E0AE7A /* Assets.xcassets */,
 				C4911F4C2925E6E900E0AE7A /* Preview Content */,
+				C475CE712926B03F004D10FF /* Jamo.swift */,
+				C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */,
 			);
 			path = "hangul-practice";
 			sourceTree = "<group>";
@@ -65,6 +95,38 @@
 				C4911F4D2925E6E900E0AE7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4977C5B292822D10089F41B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C4977C5C292822DE0089F41B /* WordContainer.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C4F13C86292ADD9F00DF5804 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				C4F13C87292ADD9F00DF5804 /* hangul-dis-assemble */,
+				C4F13C88292ADDBC00DF5804 /* hangul-dis-assemble */,
+				C4F13C89292ADF0B00DF5804 /* hangul-dis-assemble */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		C4F13C8A292ADF2300DF5804 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F13C95292AF18700DF5804 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,10 @@
 			dependencies = (
 			);
 			name = "hangul-practice";
+			packageProductDependencies = (
+				C4B4643129273A8800AF4343 /* SwiftyTranslate */,
+				C4F13C8E292ADF7800DF5804 /* HangulDisAssemble */,
+			);
 			productName = "hangul-practice";
 			productReference = C4911F432925E6E800E0AE7A /* hangul-practice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,10 @@
 				Base,
 			);
 			mainGroup = C4911F3A2925E6E700E0AE7A;
+			packageReferences = (
+				C4B4643029273A8800AF4343 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */,
+				C4F13C8D292ADF7800DF5804 /* XCRemoteSwiftPackageReference "hangul-dis-assemble" */,
+			);
 			productRefGroup = C4911F442925E6E800E0AE7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +195,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C44C82492925F07E00C17640 /* kodict_entry.txt in Resources */,
 				C4911F4E2925E6E900E0AE7A /* Preview Assets.xcassets in Resources */,
 				C4911F4B2925E6E900E0AE7A /* Assets.xcassets in Resources */,
+				C4F13C91292AEB5600DF5804 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C475CE722926B03F004D10FF /* Jamo.swift in Sources */,
+				C4977C5D292822DE0089F41B /* WordContainer.swift in Sources */,
 				C4911F492925E6E800E0AE7A /* ContentView.swift in Sources */,
 				C4911F472925E6E800E0AE7A /* hangul_practiceApp.swift in Sources */,
 			);
@@ -195,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,9 +344,12 @@
 				DEVELOPMENT_TEAM = TDPBQ6CZ68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hangul-practice/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +376,12 @@
 				DEVELOPMENT_TEAM = TDPBQ6CZ68;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hangul-practice/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -339,6 +419,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C4B4643029273A8800AF4343 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cpageler93/SwiftyTranslate";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C4F13C8D292ADF7800DF5804 /* XCRemoteSwiftPackageReference "hangul-dis-assemble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/louis1001/hangul-dis-assemble";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C4B4643129273A8800AF4343 /* SwiftyTranslate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4B4643029273A8800AF4343 /* XCRemoteSwiftPackageReference "SwiftyTranslate" */;
+			productName = SwiftyTranslate;
+		};
+		C4F13C8E292ADF7800DF5804 /* HangulDisAssemble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4F13C8D292ADF7800DF5804 /* XCRemoteSwiftPackageReference "hangul-dis-assemble" */;
+			productName = HangulDisAssemble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C4911F3B2925E6E700E0AE7A /* Project object */;
 }
