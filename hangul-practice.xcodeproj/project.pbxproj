@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40C1EB2292E66B1002EF976 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EB1292E66B1002EF976 /* ShareSheet.swift */; };
+		C40C1EB4292E66E9002EF976 /* SpeechSynthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EB3292E66E9002EF976 /* SpeechSynthesis.swift */; };
+		C40C1EB7292E670C002EF976 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EB6292E670C002EF976 /* View+Extension.swift */; };
+		C40C1EB9292E679E002EF976 /* DictionaryReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EB8292E679E002EF976 /* DictionaryReference.swift */; };
+		C40C1EBB292E6D8D002EF976 /* IpadCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EBA292E6D8D002EF976 /* IpadCheck.swift */; };
+		C40C1EBE292E73DF002EF976 /* JamoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EBD292E73DF002EF976 /* JamoList.swift */; };
+		C40C1EC0292E73FA002EF976 /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EBF292E73FA002EF976 /* ActionButtons.swift */; };
+		C40C1EC2292E743A002EF976 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EC1292E743A002EF976 /* Details.swift */; };
+		C40C1EC4292E7451002EF976 /* KoreanWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EC3292E7451002EF976 /* KoreanWord.swift */; };
 		C44C82492925F07E00C17640 /* kodict_entry.txt in Resources */ = {isa = PBXBuildFile; fileRef = C44C82482925F07E00C17640 /* kodict_entry.txt */; };
 		C475CE722926B03F004D10FF /* Jamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475CE712926B03F004D10FF /* Jamo.swift */; };
 		C4911F472925E6E800E0AE7A /* hangul_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */; };
 		C4911F492925E6E800E0AE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4911F482925E6E800E0AE7A /* ContentView.swift */; };
 		C4911F4B2925E6E900E0AE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4911F4A2925E6E900E0AE7A /* Assets.xcassets */; };
 		C4911F4E2925E6E900E0AE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4911F4D2925E6E900E0AE7A /* Preview Assets.xcassets */; };
-		C4977C5D292822DE0089F41B /* WordContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4977C5C292822DE0089F41B /* WordContainer.swift */; };
+		C4977C5D292822DE0089F41B /* WordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4977C5C292822DE0089F41B /* WordViewModel.swift */; };
 		C4B4643229273A8800AF4343 /* SwiftyTranslate in Frameworks */ = {isa = PBXBuildFile; productRef = C4B4643129273A8800AF4343 /* SwiftyTranslate */; };
 		C4F13C8F292ADF7800DF5804 /* HangulDisAssemble in Frameworks */ = {isa = PBXBuildFile; productRef = C4F13C8E292ADF7800DF5804 /* HangulDisAssemble */; };
 		C4F13C91292AEB5600DF5804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C40C1EB1292E66B1002EF976 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		C40C1EB3292E66E9002EF976 /* SpeechSynthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesis.swift; sourceTree = "<group>"; };
+		C40C1EB6292E670C002EF976 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		C40C1EB8292E679E002EF976 /* DictionaryReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryReference.swift; sourceTree = "<group>"; };
+		C40C1EBA292E6D8D002EF976 /* IpadCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IpadCheck.swift; sourceTree = "<group>"; };
+		C40C1EBD292E73DF002EF976 /* JamoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JamoList.swift; sourceTree = "<group>"; };
+		C40C1EBF292E73FA002EF976 /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
+		C40C1EC1292E743A002EF976 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		C40C1EC3292E7451002EF976 /* KoreanWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanWord.swift; sourceTree = "<group>"; };
 		C44C82482925F07E00C17640 /* kodict_entry.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kodict_entry.txt; sourceTree = "<group>"; };
 		C475CE712926B03F004D10FF /* Jamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamo.swift; sourceTree = "<group>"; };
 		C4911F432925E6E800E0AE7A /* hangul-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangul-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +45,7 @@
 		C4911F482925E6E800E0AE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4911F4A2925E6E900E0AE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4911F4D2925E6E900E0AE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C4977C5C292822DE0089F41B /* WordContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordContainer.swift; sourceTree = "<group>"; };
+		C4977C5C292822DE0089F41B /* WordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewModel.swift; sourceTree = "<group>"; };
 		C4F13C87292ADD9F00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
 		C4F13C88292ADDBC00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
 		C4F13C89292ADF0B00DF5804 /* hangul-dis-assemble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "hangul-dis-assemble"; path = "../hangul-dis-assemble"; sourceTree = "<group>"; };
@@ -47,6 +65,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C40C1EB0292E6696002EF976 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C475CE712926B03F004D10FF /* Jamo.swift */,
+				C40C1EB1292E66B1002EF976 /* ShareSheet.swift */,
+				C40C1EB3292E66E9002EF976 /* SpeechSynthesis.swift */,
+				C40C1EB8292E679E002EF976 /* DictionaryReference.swift */,
+				C40C1EBA292E6D8D002EF976 /* IpadCheck.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C40C1EB5292E66FF002EF976 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C40C1EB6292E670C002EF976 /* View+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C40C1EBC292E73D1002EF976 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C4911F482925E6E800E0AE7A /* ContentView.swift */,
+				C40C1EBD292E73DF002EF976 /* JamoList.swift */,
+				C40C1EBF292E73FA002EF976 /* ActionButtons.swift */,
+				C40C1EC1292E743A002EF976 /* Details.swift */,
+				C40C1EC3292E7451002EF976 /* KoreanWord.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C44C82472925F07300C17640 /* dataset */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,14 +126,13 @@
 		C4911F452925E6E800E0AE7A /* hangul-practice */ = {
 			isa = PBXGroup;
 			children = (
+				C40C1EBC292E73D1002EF976 /* Views */,
+				C40C1EB5292E66FF002EF976 /* Extensions */,
+				C40C1EB0292E6696002EF976 /* Utils */,
 				C4F13C95292AF18700DF5804 /* Resources */,
 				C4977C5B292822D10089F41B /* ViewModels */,
-				C44C82472925F07300C17640 /* dataset */,
 				C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */,
-				C4911F482925E6E800E0AE7A /* ContentView.swift */,
-				C4911F4A2925E6E900E0AE7A /* Assets.xcassets */,
 				C4911F4C2925E6E900E0AE7A /* Preview Content */,
-				C475CE712926B03F004D10FF /* Jamo.swift */,
 				C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */,
 			);
 			path = "hangul-practice";
@@ -100,7 +149,7 @@
 		C4977C5B292822D10089F41B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				C4977C5C292822DE0089F41B /* WordContainer.swift */,
+				C4977C5C292822DE0089F41B /* WordViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -125,6 +174,8 @@
 		C4F13C95292AF18700DF5804 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C4911F4A2925E6E900E0AE7A /* Assets.xcassets */,
+				C44C82472925F07300C17640 /* dataset */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -209,10 +260,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40C1EC0292E73FA002EF976 /* ActionButtons.swift in Sources */,
+				C40C1EBB292E6D8D002EF976 /* IpadCheck.swift in Sources */,
+				C40C1EC2292E743A002EF976 /* Details.swift in Sources */,
 				C475CE722926B03F004D10FF /* Jamo.swift in Sources */,
-				C4977C5D292822DE0089F41B /* WordContainer.swift in Sources */,
+				C40C1EB9292E679E002EF976 /* DictionaryReference.swift in Sources */,
+				C40C1EB2292E66B1002EF976 /* ShareSheet.swift in Sources */,
+				C4977C5D292822DE0089F41B /* WordViewModel.swift in Sources */,
 				C4911F492925E6E800E0AE7A /* ContentView.swift in Sources */,
+				C40C1EBE292E73DF002EF976 /* JamoList.swift in Sources */,
+				C40C1EB4292E66E9002EF976 /* SpeechSynthesis.swift in Sources */,
+				C40C1EB7292E670C002EF976 /* View+Extension.swift in Sources */,
 				C4911F472925E6E800E0AE7A /* hangul_practiceApp.swift in Sources */,
+				C40C1EC4292E7451002EF976 /* KoreanWord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
-				DEVELOPMENT_TEAM = TDPBQ6CZ68;
+				DEVELOPMENT_TEAM = UZ92ZC5M3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hangul-practice/Info.plist";
@@ -357,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.louis1001.hangul-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -373,7 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
-				DEVELOPMENT_TEAM = TDPBQ6CZ68;
+				DEVELOPMENT_TEAM = UZ92ZC5M3A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "hangul-practice/Info.plist";
@@ -389,7 +449,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.louis1001.hangul-practice";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

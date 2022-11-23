@@ -1,5 +1,5 @@
 //
-//  WordContainer.swift
+//  WordViewModel.swift
 //  hangul-practice
 //
 //  Created by Luis Gonzalez on 18/11/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftyTranslate
 
-class WordContainer: ObservableObject {
+class WordViewModel: ObservableObject {
     @Published private(set) var words: [String]! = nil
     
     @Published private(set) var randomWord = ""
