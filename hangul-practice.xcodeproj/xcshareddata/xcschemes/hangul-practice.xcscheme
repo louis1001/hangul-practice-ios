@@ -61,6 +61,9 @@
             ReferencedContainer = "container:hangul-practice.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../../hangul-practice/HangulPraciticeInApp.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

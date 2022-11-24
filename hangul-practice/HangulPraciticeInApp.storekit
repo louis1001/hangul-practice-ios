@@ -1,0 +1,35 @@
+{
+  "identifier" : "C21FCCD0",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "6444690450",
+      "localizations" : [
+        {
+          "description" : "Leave a tip for the developer",
+          "displayName" : "Tip Jar",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "hangul_tipjar",
+      "referenceName" : "Tip Jar",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6444682940",
+    "_developerTeamID" : "UZ92ZC5M3A",
+    "_lastSynchronizedDate" : 690956594.04471695
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}

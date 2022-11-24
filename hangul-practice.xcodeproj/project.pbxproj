@@ -19,6 +19,9 @@
 		C40C1ECC292E8860002EF976 /* fastlane_screenshot_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ECB292E8860002EF976 /* fastlane_screenshot_test.swift */; };
 		C40C1ECE292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ECD292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift */; };
 		C40C1ED5292E8892002EF976 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ED4292E8892002EF976 /* SnapshotHelper.swift */; };
+		C42CEBAB292F205E000D7F3C /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CEBAA292F205E000D7F3C /* InformationView.swift */; };
+		C42CEBB0292F28AF000D7F3C /* HangulPraciticeInApp.storekit in Resources */ = {isa = PBXBuildFile; fileRef = C42CEBAF292F28AF000D7F3C /* HangulPraciticeInApp.storekit */; };
+		C42CEBB2292F2BEA000D7F3C /* StoreKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CEBB1292F2BEA000D7F3C /* StoreKitSupport.swift */; };
 		C44C82492925F07E00C17640 /* kodict_entry.txt in Resources */ = {isa = PBXBuildFile; fileRef = C44C82482925F07E00C17640 /* kodict_entry.txt */; };
 		C475CE722926B03F004D10FF /* Jamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C475CE712926B03F004D10FF /* Jamo.swift */; };
 		C4911F472925E6E800E0AE7A /* hangul_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */; };
@@ -55,6 +58,9 @@
 		C40C1ECB292E8860002EF976 /* fastlane_screenshot_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_screenshot_test.swift; sourceTree = "<group>"; };
 		C40C1ECD292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_screenshot_testLaunchTests.swift; sourceTree = "<group>"; };
 		C40C1ED4292E8892002EF976 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		C42CEBAA292F205E000D7F3C /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		C42CEBAF292F28AF000D7F3C /* HangulPraciticeInApp.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HangulPraciticeInApp.storekit; sourceTree = "<group>"; };
+		C42CEBB1292F2BEA000D7F3C /* StoreKitSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitSupport.swift; sourceTree = "<group>"; };
 		C44C82482925F07E00C17640 /* kodict_entry.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kodict_entry.txt; sourceTree = "<group>"; };
 		C475CE712926B03F004D10FF /* Jamo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jamo.swift; sourceTree = "<group>"; };
 		C4911F432925E6E800E0AE7A /* hangul-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hangul-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +123,7 @@
 				C40C1EBF292E73FA002EF976 /* ActionButtons.swift */,
 				C40C1EC1292E743A002EF976 /* Details.swift */,
 				C40C1EC3292E7451002EF976 /* KoreanWord.swift */,
+				C42CEBAA292F205E000D7F3C /* InformationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +177,7 @@
 				C4911F462925E6E800E0AE7A /* hangul_practiceApp.swift */,
 				C4911F4C2925E6E900E0AE7A /* Preview Content */,
 				C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */,
+				C42CEBAF292F28AF000D7F3C /* HangulPraciticeInApp.storekit */,
 			);
 			path = "hangul-practice";
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 			isa = PBXGroup;
 			children = (
 				C4977C5C292822DE0089F41B /* WordViewModel.swift */,
+				C42CEBB1292F2BEA000D7F3C /* StoreKitSupport.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -316,6 +325,7 @@
 				C4911F4E2925E6E900E0AE7A /* Preview Assets.xcassets in Resources */,
 				C4911F4B2925E6E900E0AE7A /* Assets.xcassets in Resources */,
 				C4F13C91292AEB5600DF5804 /* LaunchScreen.storyboard in Resources */,
+				C42CEBB0292F28AF000D7F3C /* HangulPraciticeInApp.storekit in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +350,11 @@
 				C40C1EBB292E6D8D002EF976 /* IpadCheck.swift in Sources */,
 				C40C1EC2292E743A002EF976 /* Details.swift in Sources */,
 				C475CE722926B03F004D10FF /* Jamo.swift in Sources */,
+				C42CEBB2292F2BEA000D7F3C /* StoreKitSupport.swift in Sources */,
 				C40C1EB9292E679E002EF976 /* DictionaryReference.swift in Sources */,
 				C40C1EB2292E66B1002EF976 /* ShareSheet.swift in Sources */,
 				C4977C5D292822DE0089F41B /* WordViewModel.swift in Sources */,
+				C42CEBAB292F205E000D7F3C /* InformationView.swift in Sources */,
 				C4911F492925E6E800E0AE7A /* ContentView.swift in Sources */,
 				C40C1EBE292E73DF002EF976 /* JamoList.swift in Sources */,
 				C40C1EB4292E66E9002EF976 /* SpeechSynthesis.swift in Sources */,
@@ -519,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
 				DEVELOPMENT_TEAM = UZ92ZC5M3A;
 				ENABLE_PREVIEWS = YES;
@@ -537,7 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -552,7 +564,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
 				DEVELOPMENT_TEAM = UZ92ZC5M3A;
 				ENABLE_PREVIEWS = YES;
@@ -570,7 +582,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
