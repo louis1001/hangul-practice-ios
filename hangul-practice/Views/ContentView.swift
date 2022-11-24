@@ -13,7 +13,7 @@ struct ContentView: View {
     
     @State private var isIpad = false
     
-    @State private var showingInfo = true
+    @State private var showingInfo = false
     
     private var backgroundColor: Color {
         Color("BackgroundColor")
