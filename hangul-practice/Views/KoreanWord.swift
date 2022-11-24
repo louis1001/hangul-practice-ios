@@ -27,7 +27,9 @@ struct KoreanWordSection: View {
                 HStack {
                     // So that the text container doesn't shrink
                     // when the font size does
-                    Text(" ").padding().frame(width: 0)
+                    Text(" ")
+                        .fixedSize(horizontal: false, vertical: true)
+                        .padding().frame(width: 0)
                     
                     Text(word)
                         .minimumScaleFactor(0.5)

@@ -26,8 +26,13 @@ struct ContentView: View {
                 .frame(maxWidth: 900)
             
             VStack(spacing: 20) {
+                Spacer(minLength: 0)
+                    .frame(maxHeight: 15)
+                    .layoutPriority(-1)
                 KoreanWordSection(word: container.randomWord)
-                .padding(.vertical, 50)
+                Spacer(minLength: 0)
+                    .frame(maxHeight: 15)
+                    .layoutPriority(-1)
                 
                 VStack(spacing: isIpad ? 30 : 20) {
                     ActionButtonsSection(container: container)

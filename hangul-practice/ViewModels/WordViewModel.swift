@@ -64,7 +64,7 @@ class WordViewModel: ObservableObject {
         }
         let random = Int.random(in: 0..<words.count)
         
-        let pickedWord = self.words[random]
+        let pickedWord = self.words[random]// "포도동포도동"//
         
         Task {
             let decomposed = await Jamo.shared.decompose(pickedWord) ?? []

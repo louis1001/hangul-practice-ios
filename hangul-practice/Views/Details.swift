@@ -40,7 +40,7 @@ struct DetailsSection: View {
             .asButton {
                 action.showDefinition(for: container.randomWord)
             }
-            .disabled(!action.definitionAvailable(for: container.randomWord))
+            .disabled(!action.definitionAvailable(for: container.randomWord)) //
             
             VStack(spacing: 2) {
                 VStack {
@@ -72,8 +72,13 @@ struct DetailsSection: View {
 
                 if translationDeployed {
                     VStack {
-                        Text(container.translation)
-                            .font(isIpad ? .system(size: 24) : .body)
+                        HStack {
+                            Text(" ")
+                                .frame(width: 0)
+                            
+                            Text(container.translation)
+                        }
+                        .font(isIpad ? .system(size: 24) : .body)
                     }
                     .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                     .padding(.top, 5)
