@@ -16,9 +16,6 @@
 		C40C1EC0292E73FA002EF976 /* ActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EBF292E73FA002EF976 /* ActionButtons.swift */; };
 		C40C1EC2292E743A002EF976 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EC1292E743A002EF976 /* Details.swift */; };
 		C40C1EC4292E7451002EF976 /* KoreanWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1EC3292E7451002EF976 /* KoreanWord.swift */; };
-		C40C1ECC292E8860002EF976 /* fastlane_screenshot_test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ECB292E8860002EF976 /* fastlane_screenshot_test.swift */; };
-		C40C1ECE292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ECD292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift */; };
-		C40C1ED5292E8892002EF976 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C1ED4292E8892002EF976 /* SnapshotHelper.swift */; };
 		C42CEBAB292F205E000D7F3C /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CEBAA292F205E000D7F3C /* InformationView.swift */; };
 		C42CEBB0292F28AF000D7F3C /* HangulPraciticeInApp.storekit in Resources */ = {isa = PBXBuildFile; fileRef = C42CEBAF292F28AF000D7F3C /* HangulPraciticeInApp.storekit */; };
 		C42CEBB2292F2BEA000D7F3C /* StoreKitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42CEBB1292F2BEA000D7F3C /* StoreKitSupport.swift */; };
@@ -34,16 +31,6 @@
 		C4F13C91292AEB5600DF5804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4F13C90292AEB5600DF5804 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C40C1ECF292E8860002EF976 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4911F3B2925E6E700E0AE7A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C4911F422925E6E800E0AE7A;
-			remoteInfo = "hangul-practice";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C40C1EB1292E66B1002EF976 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		C40C1EB3292E66E9002EF976 /* SpeechSynthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesis.swift; sourceTree = "<group>"; };
@@ -54,10 +41,6 @@
 		C40C1EBF292E73FA002EF976 /* ActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtons.swift; sourceTree = "<group>"; };
 		C40C1EC1292E743A002EF976 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		C40C1EC3292E7451002EF976 /* KoreanWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoreanWord.swift; sourceTree = "<group>"; };
-		C40C1EC9292E8860002EF976 /* fastlane-screenshot-test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-screenshot-test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C40C1ECB292E8860002EF976 /* fastlane_screenshot_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_screenshot_test.swift; sourceTree = "<group>"; };
-		C40C1ECD292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_screenshot_testLaunchTests.swift; sourceTree = "<group>"; };
-		C40C1ED4292E8892002EF976 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		C42CEBAA292F205E000D7F3C /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		C42CEBAF292F28AF000D7F3C /* HangulPraciticeInApp.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = HangulPraciticeInApp.storekit; sourceTree = "<group>"; };
 		C42CEBB1292F2BEA000D7F3C /* StoreKitSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitSupport.swift; sourceTree = "<group>"; };
@@ -76,13 +59,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C40C1EC6292E8860002EF976 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4911F402925E6E800E0AE7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,16 +104,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		C40C1ECA292E8860002EF976 /* fastlane-screenshot-test */ = {
-			isa = PBXGroup;
-			children = (
-				C40C1ED4292E8892002EF976 /* SnapshotHelper.swift */,
-				C40C1ECB292E8860002EF976 /* fastlane_screenshot_test.swift */,
-				C40C1ECD292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift */,
-			);
-			path = "fastlane-screenshot-test";
-			sourceTree = "<group>";
-		};
 		C44C82472925F07300C17640 /* dataset */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +117,6 @@
 			children = (
 				C4F13C86292ADD9F00DF5804 /* Packages */,
 				C4911F452925E6E800E0AE7A /* hangul-practice */,
-				C40C1ECA292E8860002EF976 /* fastlane-screenshot-test */,
 				C4911F442925E6E800E0AE7A /* Products */,
 				C4F13C8A292ADF2300DF5804 /* Frameworks */,
 			);
@@ -161,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				C4911F432925E6E800E0AE7A /* hangul-practice.app */,
-				C40C1EC9292E8860002EF976 /* fastlane-screenshot-test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -228,24 +192,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C40C1EC8292E8860002EF976 /* fastlane-screenshot-test */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C40C1ED1292E8860002EF976 /* Build configuration list for PBXNativeTarget "fastlane-screenshot-test" */;
-			buildPhases = (
-				C40C1EC5292E8860002EF976 /* Sources */,
-				C40C1EC6292E8860002EF976 /* Frameworks */,
-				C40C1EC7292E8860002EF976 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C40C1ED0292E8860002EF976 /* PBXTargetDependency */,
-			);
-			name = "fastlane-screenshot-test";
-			productName = "fastlane-screenshot-test";
-			productReference = C40C1EC9292E8860002EF976 /* fastlane-screenshot-test.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		C4911F422925E6E800E0AE7A /* hangul-practice */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4911F512925E6E900E0AE7A /* Build configuration list for PBXNativeTarget "hangul-practice" */;
@@ -277,10 +223,6 @@
 				LastSwiftUpdateCheck = 1400;
 				LastUpgradeCheck = 1400;
 				TargetAttributes = {
-					C40C1EC8292E8860002EF976 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = C4911F422925E6E800E0AE7A;
-					};
 					C4911F422925E6E800E0AE7A = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -304,19 +246,11 @@
 			projectRoot = "";
 			targets = (
 				C4911F422925E6E800E0AE7A /* hangul-practice */,
-				C40C1EC8292E8860002EF976 /* fastlane-screenshot-test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C40C1EC7292E8860002EF976 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4911F412925E6E800E0AE7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,16 +266,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C40C1EC5292E8860002EF976 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C40C1ECE292E8860002EF976 /* fastlane_screenshot_testLaunchTests.swift in Sources */,
-				C40C1ECC292E8860002EF976 /* fastlane_screenshot_test.swift in Sources */,
-				C40C1ED5292E8892002EF976 /* SnapshotHelper.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C4911F3F2925E6E800E0AE7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,51 +290,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		C40C1ED0292E8860002EF976 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C4911F422925E6E800E0AE7A /* hangul-practice */;
-			targetProxy = C40C1ECF292E8860002EF976 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		C40C1ED2292E8860002EF976 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TDPBQ6CZ68;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.louis1001.fastlane-screenshot-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "hangul-practice";
-			};
-			name = Debug;
-		};
-		C40C1ED3292E8860002EF976 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TDPBQ6CZ68;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.louis1001.fastlane-screenshot-test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "hangul-practice";
-			};
-			name = Release;
-		};
 		C4911F4F2925E6E900E0AE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -530,6 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
@@ -552,6 +433,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -563,6 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"hangul-practice/Preview Content\"";
@@ -585,6 +468,7 @@
 				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.louis1001.hangul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,15 +478,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C40C1ED1292E8860002EF976 /* Build configuration list for PBXNativeTarget "fastlane-screenshot-test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C40C1ED2292E8860002EF976 /* Debug */,
-				C40C1ED3292E8860002EF976 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		C4911F3E2925E6E700E0AE7A /* Build configuration list for PBXProject "hangul-practice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
