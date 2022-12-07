@@ -39,7 +39,7 @@ struct InformationView: View {
             Spacer()
             
             VStack(spacing: 40) {
-                if storeKitViewModel.productsAvailable {
+                if storeKitViewModel.productsAvailable || storeKitViewModel.paymentSucceeded {
                     VStack(alignment: .trailing) {
                         Text("Enjoying the app?")
                             .font(.headline)
